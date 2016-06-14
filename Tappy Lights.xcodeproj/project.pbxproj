@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A493521D10BC4E00E61F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493511D10BC4E00E61F0F /* AppDelegate.swift */; };
+		D3A493541D10BC4E00E61F0F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3A493531D10BC4E00E61F0F /* GameScene.sks */; };
+		D3A493561D10BC4E00E61F0F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493551D10BC4E00E61F0F /* GameScene.swift */; };
+		D3A493581D10BC4E00E61F0F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493571D10BC4E00E61F0F /* GameViewController.swift */; };
+		D3A4935B1D10BC4F00E61F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A493591D10BC4F00E61F0F /* Main.storyboard */; };
+		D3A4935D1D10BC4F00E61F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A4935C1D10BC4F00E61F0F /* Assets.xcassets */; };
+		D3A493601D10BC4F00E61F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A4935E1D10BC4F00E61F0F /* LaunchScreen.storyboard */; };
+		D3A4936B1D10BC4F00E61F0F /* Tappy_LightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4936A1D10BC4F00E61F0F /* Tappy_LightsTests.swift */; };
+		D3A493761D10BC4F00E61F0F /* Tappy_LightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493751D10BC4F00E61F0F /* Tappy_LightsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3A493671D10BC4F00E61F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A493461D10BC4E00E61F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A4934D1D10BC4E00E61F0F;
+			remoteInfo = "Tappy Lights";
+		};
+		D3A493721D10BC4F00E61F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A493461D10BC4E00E61F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A4934D1D10BC4E00E61F0F;
+			remoteInfo = "Tappy Lights";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3A4934E1D10BC4E00E61F0F /* Tappy Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A493511D10BC4E00E61F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3A493531D10BC4E00E61F0F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D3A493551D10BC4E00E61F0F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D3A493571D10BC4E00E61F0F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D3A4935A1D10BC4F00E61F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3A4935C1D10BC4F00E61F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3A4935F1D10BC4F00E61F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3A493611D10BC4F00E61F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A493661D10BC4F00E61F0F /* Tappy LightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tappy LightsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A4936A1D10BC4F00E61F0F /* Tappy_LightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappy_LightsTests.swift; sourceTree = "<group>"; };
+		D3A4936C1D10BC4F00E61F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A493711D10BC4F00E61F0F /* Tappy LightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tappy LightsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A493751D10BC4F00E61F0F /* Tappy_LightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappy_LightsUITests.swift; sourceTree = "<group>"; };
+		D3A493771D10BC4F00E61F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A4934B1D10BC4E00E61F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A493631D10BC4F00E61F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A4936E1D10BC4F00E61F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3A493451D10BC4E00E61F0F = {
+			isa = PBXGroup;
+			children = (
+				D3A493501D10BC4E00E61F0F /* Tappy Lights */,
+				D3A493691D10BC4F00E61F0F /* Tappy LightsTests */,
+				D3A493741D10BC4F00E61F0F /* Tappy LightsUITests */,
+				D3A4934F1D10BC4E00E61F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A4934F1D10BC4E00E61F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A4934E1D10BC4E00E61F0F /* Tappy Lights.app */,
+				D3A493661D10BC4F00E61F0F /* Tappy LightsTests.xctest */,
+				D3A493711D10BC4F00E61F0F /* Tappy LightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A493501D10BC4E00E61F0F /* Tappy Lights */ = {
+			isa = PBXGroup;
+			children = (
+				D3A493511D10BC4E00E61F0F /* AppDelegate.swift */,
+				D3A493531D10BC4E00E61F0F /* GameScene.sks */,
+				D3A493551D10BC4E00E61F0F /* GameScene.swift */,
+				D3A493571D10BC4E00E61F0F /* GameViewController.swift */,
+				D3A493591D10BC4F00E61F0F /* Main.storyboard */,
+				D3A4935C1D10BC4F00E61F0F /* Assets.xcassets */,
+				D3A4935E1D10BC4F00E61F0F /* LaunchScreen.storyboard */,
+				D3A493611D10BC4F00E61F0F /* Info.plist */,
+			);
+			path = "Tappy Lights";
+			sourceTree = "<group>";
+		};
+		D3A493691D10BC4F00E61F0F /* Tappy LightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A4936A1D10BC4F00E61F0F /* Tappy_LightsTests.swift */,
+				D3A4936C1D10BC4F00E61F0F /* Info.plist */,
+			);
+			path = "Tappy LightsTests";
+			sourceTree = "<group>";
+		};
+		D3A493741D10BC4F00E61F0F /* Tappy LightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A493751D10BC4F00E61F0F /* Tappy_LightsUITests.swift */,
+				D3A493771D10BC4F00E61F0F /* Info.plist */,
+			);
+			path = "Tappy LightsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A4934D1D10BC4E00E61F0F /* Tappy Lights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A4937A1D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy Lights" */;
+			buildPhases = (
+				D3A4934A1D10BC4E00E61F0F /* Sources */,
+				D3A4934B1D10BC4E00E61F0F /* Frameworks */,
+				D3A4934C1D10BC4E00E61F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tappy Lights";
+			productName = "Tappy Lights";
+			productReference = D3A4934E1D10BC4E00E61F0F /* Tappy Lights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3A493651D10BC4F00E61F0F /* Tappy LightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A4937D1D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy LightsTests" */;
+			buildPhases = (
+				D3A493621D10BC4F00E61F0F /* Sources */,
+				D3A493631D10BC4F00E61F0F /* Frameworks */,
+				D3A493641D10BC4F00E61F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A493681D10BC4F00E61F0F /* PBXTargetDependency */,
+			);
+			name = "Tappy LightsTests";
+			productName = "Tappy LightsTests";
+			productReference = D3A493661D10BC4F00E61F0F /* Tappy LightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3A493701D10BC4F00E61F0F /* Tappy LightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A493801D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy LightsUITests" */;
+			buildPhases = (
+				D3A4936D1D10BC4F00E61F0F /* Sources */,
+				D3A4936E1D10BC4F00E61F0F /* Frameworks */,
+				D3A4936F1D10BC4F00E61F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A493731D10BC4F00E61F0F /* PBXTargetDependency */,
+			);
+			name = "Tappy LightsUITests";
+			productName = "Tappy LightsUITests";
+			productReference = D3A493711D10BC4F00E61F0F /* Tappy LightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A493461D10BC4E00E61F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = codebluapps;
+				TargetAttributes = {
+					D3A4934D1D10BC4E00E61F0F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D3A493651D10BC4F00E61F0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3A4934D1D10BC4E00E61F0F;
+					};
+					D3A493701D10BC4F00E61F0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3A4934D1D10BC4E00E61F0F;
+					};
+				};
+			};
+			buildConfigurationList = D3A493491D10BC4E00E61F0F /* Build configuration list for PBXProject "Tappy Lights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A493451D10BC4E00E61F0F;
+			productRefGroup = D3A4934F1D10BC4E00E61F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A4934D1D10BC4E00E61F0F /* Tappy Lights */,
+				D3A493651D10BC4F00E61F0F /* Tappy LightsTests */,
+				D3A493701D10BC4F00E61F0F /* Tappy LightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A4934C1D10BC4E00E61F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A493541D10BC4E00E61F0F /* GameScene.sks in Resources */,
+				D3A493601D10BC4F00E61F0F /* LaunchScreen.storyboard in Resources */,
+				D3A4935D1D10BC4F00E61F0F /* Assets.xcassets in Resources */,
+				D3A4935B1D10BC4F00E61F0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A493641D10BC4F00E61F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A4936F1D10BC4F00E61F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A4934A1D10BC4E00E61F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A493561D10BC4E00E61F0F /* GameScene.swift in Sources */,
+				D3A493581D10BC4E00E61F0F /* GameViewController.swift in Sources */,
+				D3A493521D10BC4E00E61F0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A493621D10BC4F00E61F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A4936B1D10BC4F00E61F0F /* Tappy_LightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A4936D1D10BC4F00E61F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A493761D10BC4F00E61F0F /* Tappy_LightsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3A493681D10BC4F00E61F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A4934D1D10BC4E00E61F0F /* Tappy Lights */;
+			targetProxy = D3A493671D10BC4F00E61F0F /* PBXContainerItemProxy */;
+		};
+		D3A493731D10BC4F00E61F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A4934D1D10BC4E00E61F0F /* Tappy Lights */;
+			targetProxy = D3A493721D10BC4F00E61F0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3A493591D10BC4F00E61F0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A4935A1D10BC4F00E61F0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3A4935E1D10BC4F00E61F0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A4935F1D10BC4F00E61F0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3A493781D10BC4F00E61F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3A493791D10BC4F00E61F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A4937B1D10BC4F00E61F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tappy Lights/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-Lights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3A4937C1D10BC4F00E61F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tappy Lights/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-Lights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3A4937E1D10BC4F00E61F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Tappy LightsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-LightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tappy Lights.app/Tappy Lights";
+			};
+			name = Debug;
+		};
+		D3A4937F1D10BC4F00E61F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tappy LightsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-LightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tappy Lights.app/Tappy Lights";
+			};
+			name = Release;
+		};
+		D3A493811D10BC4F00E61F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Tappy LightsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-LightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tappy Lights";
+			};
+			name = Debug;
+		};
+		D3A493821D10BC4F00E61F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tappy LightsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-LightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tappy Lights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A493491D10BC4E00E61F0F /* Build configuration list for PBXProject "Tappy Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A493781D10BC4F00E61F0F /* Debug */,
+				D3A493791D10BC4F00E61F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A4937A1D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A4937B1D10BC4F00E61F0F /* Debug */,
+				D3A4937C1D10BC4F00E61F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3A4937D1D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy LightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A4937E1D10BC4F00E61F0F /* Debug */,
+				D3A4937F1D10BC4F00E61F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3A493801D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy LightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A493811D10BC4F00E61F0F /* Debug */,
+				D3A493821D10BC4F00E61F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3A493461D10BC4E00E61F0F /* Project object */;
+}
