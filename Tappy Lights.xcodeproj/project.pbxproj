@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D306DF7C1D12FF75006B94AE /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306DF7B1D12FF75006B94AE /* GameManager.swift */; };
+		D306DF7E1D143FC2006B94AE /* ButtonClicked1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D306DF7D1D143FC2006B94AE /* ButtonClicked1.mp3 */; };
+		D306DF811D144000006B94AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306DF801D144000006B94AE /* Constants.swift */; };
+		D306DF831D1441E4006B94AE /* ButtonSelect1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D306DF821D1441E4006B94AE /* ButtonSelect1.mp3 */; };
+		D306DF851D1450A4006B94AE /* Menu Selection Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = D306DF841D1450A4006B94AE /* Menu Selection Click.wav */; };
+		D30EEDDB1D12F35E0050FFF5 /* LightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30EEDDA1D12F35E0050FFF5 /* LightButton.swift */; };
 		D3A493521D10BC4E00E61F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493511D10BC4E00E61F0F /* AppDelegate.swift */; };
-		D3A493541D10BC4E00E61F0F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3A493531D10BC4E00E61F0F /* GameScene.sks */; };
-		D3A493561D10BC4E00E61F0F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493551D10BC4E00E61F0F /* GameScene.swift */; };
 		D3A493581D10BC4E00E61F0F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493571D10BC4E00E61F0F /* GameViewController.swift */; };
 		D3A4935B1D10BC4F00E61F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A493591D10BC4F00E61F0F /* Main.storyboard */; };
 		D3A4935D1D10BC4F00E61F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A4935C1D10BC4F00E61F0F /* Assets.xcassets */; };
 		D3A493601D10BC4F00E61F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A4935E1D10BC4F00E61F0F /* LaunchScreen.storyboard */; };
 		D3A4936B1D10BC4F00E61F0F /* Tappy_LightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4936A1D10BC4F00E61F0F /* Tappy_LightsTests.swift */; };
 		D3A493761D10BC4F00E61F0F /* Tappy_LightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493751D10BC4F00E61F0F /* Tappy_LightsUITests.swift */; };
+		D3A493891D10BCC100E61F0F /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3A493881D10BCC100E61F0F /* MainMenuScene.sks */; };
+		D3A4938C1D10BCDA00E61F0F /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4938B1D10BCDA00E61F0F /* MainMenuScene.swift */; };
+		D3A4938E1D10EFA000E61F0F /* Prototype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A4938D1D10EFA000E61F0F /* Prototype.ttf */; };
+		D3A493ED1D11CBDB00E61F0F /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493EC1D11CBDB00E61F0F /* GameplayScene.swift */; };
+		D3A493EF1D11CBE300E61F0F /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3A493EE1D11CBE300E61F0F /* GameplayScene.sks */; };
+		D3A493F11D11CC0500E61F0F /* GameoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A493F01D11CC0500E61F0F /* GameoverScene.swift */; };
+		D3A493F31D11CC0D00E61F0F /* GameoverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3A493F21D11CC0D00E61F0F /* GameoverScene.sks */; };
+		D3D686A51D19884800CD1F60 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D686A41D19884800CD1F60 /* AVFoundation.framework */; };
+		D3D686A71D198BA500CD1F60 /* WrongHit1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D686A61D198BA500CD1F60 /* WrongHit1.mp3 */; };
+		D3F907661D1832E800421E25 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F907651D1832E800421E25 /* GoogleMobileAds.framework */; };
+		D3F907681D1856EB00421E25 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F907671D1856EB00421E25 /* AVKit.framework */; };
+		D3F9076A1D1856F200421E25 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F907691D1856F200421E25 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D306DF7B1D12FF75006B94AE /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		D306DF7D1D143FC2006B94AE /* ButtonClicked1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonClicked1.mp3; sourceTree = "<group>"; };
+		D306DF801D144000006B94AE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D306DF821D1441E4006B94AE /* ButtonSelect1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonSelect1.mp3; sourceTree = "<group>"; };
+		D306DF841D1450A4006B94AE /* Menu Selection Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Menu Selection Click.wav"; sourceTree = "<group>"; };
+		D30EEDDA1D12F35E0050FFF5 /* LightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightButton.swift; sourceTree = "<group>"; };
 		D3A4934E1D10BC4E00E61F0F /* Tappy Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A493511D10BC4E00E61F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3A493531D10BC4E00E61F0F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D3A493551D10BC4E00E61F0F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D3A493571D10BC4E00E61F0F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D3A4935A1D10BC4F00E61F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3A4935C1D10BC4F00E61F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +71,18 @@
 		D3A493711D10BC4F00E61F0F /* Tappy LightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tappy LightsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A493751D10BC4F00E61F0F /* Tappy_LightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappy_LightsUITests.swift; sourceTree = "<group>"; };
 		D3A493771D10BC4F00E61F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A493881D10BCC100E61F0F /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		D3A4938B1D10BCDA00E61F0F /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		D3A4938D1D10EFA000E61F0F /* Prototype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prototype.ttf; sourceTree = "<group>"; };
+		D3A493EC1D11CBDB00E61F0F /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		D3A493EE1D11CBE300E61F0F /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		D3A493F01D11CC0500E61F0F /* GameoverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameoverScene.swift; sourceTree = "<group>"; };
+		D3A493F21D11CC0D00E61F0F /* GameoverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameoverScene.sks; sourceTree = "<group>"; };
+		D3D686A41D19884800CD1F60 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D3D686A61D198BA500CD1F60 /* WrongHit1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WrongHit1.mp3; sourceTree = "<group>"; };
+		D3F907651D1832E800421E25 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D3F907671D1856EB00421E25 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D3F907691D1856F200421E25 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D686A51D19884800CD1F60 /* AVFoundation.framework in Frameworks */,
+				D3F9076A1D1856F200421E25 /* GameKit.framework in Frameworks */,
+				D3F907681D1856EB00421E25 /* AVKit.framework in Frameworks */,
+				D3F907661D1832E800421E25 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +114,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D306DF7A1D12FF51006B94AE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D306DF7B1D12FF75006B94AE /* GameManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		D306DF7F1D143FF3006B94AE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D306DF801D144000006B94AE /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		D30EEDD91D12F3430050FFF5 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D30EEDDA1D12F35E0050FFF5 /* LightButton.swift */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
 		D3A493451D10BC4E00E61F0F = {
 			isa = PBXGroup;
 			children = (
+				D3D686A41D19884800CD1F60 /* AVFoundation.framework */,
+				D3F907691D1856F200421E25 /* GameKit.framework */,
+				D3F907671D1856EB00421E25 /* AVKit.framework */,
+				D3F907651D1832E800421E25 /* GoogleMobileAds.framework */,
 				D3A493501D10BC4E00E61F0F /* Tappy Lights */,
+				D306DF7F1D143FF3006B94AE /* Constants */,
+				D306DF7A1D12FF51006B94AE /* Manager */,
+				D3A493841D10BC7C00E61F0F /* Classes */,
+				D3A493851D10BC8800E61F0F /* Scenes */,
+				D3A493871D10BC9200E61F0F /* Sounds */,
+				D3A493861D10BC8D00E61F0F /* Fonts */,
 				D3A493691D10BC4F00E61F0F /* Tappy LightsTests */,
 				D3A493741D10BC4F00E61F0F /* Tappy LightsUITests */,
 				D3A4934F1D10BC4E00E61F0F /* Products */,
@@ -102,8 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				D3A493511D10BC4E00E61F0F /* AppDelegate.swift */,
-				D3A493531D10BC4E00E61F0F /* GameScene.sks */,
-				D3A493551D10BC4E00E61F0F /* GameScene.swift */,
 				D3A493571D10BC4E00E61F0F /* GameViewController.swift */,
 				D3A493591D10BC4F00E61F0F /* Main.storyboard */,
 				D3A4935C1D10BC4F00E61F0F /* Assets.xcassets */,
@@ -129,6 +197,54 @@
 				D3A493771D10BC4F00E61F0F /* Info.plist */,
 			);
 			path = "Tappy LightsUITests";
+			sourceTree = "<group>";
+		};
+		D3A493841D10BC7C00E61F0F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D30EEDD91D12F3430050FFF5 /* Button */,
+				D3A4938A1D10BCCB00E61F0F /* Scene Classes */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D3A493851D10BC8800E61F0F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D3A493881D10BCC100E61F0F /* MainMenuScene.sks */,
+				D3A493EE1D11CBE300E61F0F /* GameplayScene.sks */,
+				D3A493F21D11CC0D00E61F0F /* GameoverScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		D3A493861D10BC8D00E61F0F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3A4938D1D10EFA000E61F0F /* Prototype.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D3A493871D10BC9200E61F0F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D3D686A61D198BA500CD1F60 /* WrongHit1.mp3 */,
+				D306DF841D1450A4006B94AE /* Menu Selection Click.wav */,
+				D306DF821D1441E4006B94AE /* ButtonSelect1.mp3 */,
+				D306DF7D1D143FC2006B94AE /* ButtonClicked1.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		D3A4938A1D10BCCB00E61F0F /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3A4938B1D10BCDA00E61F0F /* MainMenuScene.swift */,
+				D3A493EC1D11CBDB00E61F0F /* GameplayScene.swift */,
+				D3A493F01D11CC0500E61F0F /* GameoverScene.swift */,
+			);
+			name = "Scene Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +315,7 @@
 				TargetAttributes = {
 					D3A4934D1D10BC4E00E61F0F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4MT66R8K77;
 					};
 					D3A493651D10BC4F00E61F0F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -235,10 +352,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A493541D10BC4E00E61F0F /* GameScene.sks in Resources */,
+				D306DF831D1441E4006B94AE /* ButtonSelect1.mp3 in Resources */,
 				D3A493601D10BC4F00E61F0F /* LaunchScreen.storyboard in Resources */,
+				D3A4938E1D10EFA000E61F0F /* Prototype.ttf in Resources */,
+				D306DF851D1450A4006B94AE /* Menu Selection Click.wav in Resources */,
 				D3A4935D1D10BC4F00E61F0F /* Assets.xcassets in Resources */,
 				D3A4935B1D10BC4F00E61F0F /* Main.storyboard in Resources */,
+				D3D686A71D198BA500CD1F60 /* WrongHit1.mp3 in Resources */,
+				D306DF7E1D143FC2006B94AE /* ButtonClicked1.mp3 in Resources */,
+				D3A493F31D11CC0D00E61F0F /* GameoverScene.sks in Resources */,
+				D3A493EF1D11CBE300E61F0F /* GameplayScene.sks in Resources */,
+				D3A493891D10BCC100E61F0F /* MainMenuScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +387,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A493561D10BC4E00E61F0F /* GameScene.swift in Sources */,
+				D30EEDDB1D12F35E0050FFF5 /* LightButton.swift in Sources */,
+				D3A493ED1D11CBDB00E61F0F /* GameplayScene.swift in Sources */,
+				D3A493F11D11CC0500E61F0F /* GameoverScene.swift in Sources */,
+				D306DF7C1D12FF75006B94AE /* GameManager.swift in Sources */,
 				D3A493581D10BC4E00E61F0F /* GameViewController.swift in Sources */,
+				D3A4938C1D10BCDA00E61F0F /* MainMenuScene.swift in Sources */,
 				D3A493521D10BC4E00E61F0F /* AppDelegate.swift in Sources */,
+				D306DF811D144000006B94AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +536,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Tappy Lights/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-Lights";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,7 +553,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Tappy Lights/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Tappy-Lights";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,6 +633,7 @@
 				D3A4937C1D10BC4F00E61F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3A4937D1D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy LightsTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +642,7 @@
 				D3A4937F1D10BC4F00E61F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3A493801D10BC4F00E61F0F /* Build configuration list for PBXNativeTarget "Tappy LightsUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +651,7 @@
 				D3A493821D10BC4F00E61F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
